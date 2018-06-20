@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    color: white;
+}
+textarea{
+    font-family: intro;
+    color: white;
+    font-size: 18px !important;
+    text-align: center;
+}
+.visto{
+    width:170px;
+    height: 100px;;
+}
+.subtitle{
+    font-family: baddy;
+    color: white;
+    font-size: 45px;
+}
+.cosita{
+    font-size: 24px;
+}
+p{
+    font-family: intro;
+    color:white;
+}
+.pregunta p{
+    text-align: center;
+    font-size: 18px;
+}
+.respuestas{
+    display:none;
+}
+.respuestas p{
+    text-align: center;
+    font-size: 3em;
+}
+#borrado{
+    display:none;
+}
+@font-face{
+    font-family: baddy;
+    src: url(../font/Nervous.ttf);
+}
+@font-face{
+    font-family: intro;
+    src: url(../font/times_new_yorker.ttf);
+}
+/* cambia el color del underline del textarea siempre y cuando este tenga de el atributo type="text" */
+.input-field textarea[type=text]:focus {
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 1px 0 0 #fff;
+}
